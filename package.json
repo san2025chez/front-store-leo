@@ -2,7 +2,7 @@
   "name": "new-ecomerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://productosnutricionales.com.ar",
+  "homepage": "http://san2025chez.github.io/front-store-leo",
   "dependencies": {
     "@emotion/react": "11.7.1",
     "@emotion/styled": "11.6.0",
@@ -48,7 +48,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "predeploy": "npm run build  && tsc && echo 'productosnutricionales.com.ar' > ./build/CNAME",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
