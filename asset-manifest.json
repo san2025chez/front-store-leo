@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/front-store-leo/static/css/main.113b8da0.css",
-    "main.js": "/front-store-leo/static/js/main.9b5eed5e.js",
+    "main.js": "/front-store-leo/static/js/main.2fc67677.js",
     "static/js/453.0b88fc79.chunk.js": "/front-store-leo/static/js/453.0b88fc79.chunk.js",
     "static/media/omni.PNG": "/front-store-leo/static/media/omni.a3200cf81e02deb70d5d.PNG",
     "static/media/roboto-all-400-normal.woff": "/front-store-leo/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -14,11 +14,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/front-store-leo/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/front-store-leo/index.html",
     "main.113b8da0.css.map": "/front-store-leo/static/css/main.113b8da0.css.map",
-    "main.9b5eed5e.js.map": "/front-store-leo/static/js/main.9b5eed5e.js.map",
+    "main.2fc67677.js.map": "/front-store-leo/static/js/main.2fc67677.js.map",
     "453.0b88fc79.chunk.js.map": "/front-store-leo/static/js/453.0b88fc79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.113b8da0.css",
-    "static/js/main.9b5eed5e.js"
+    "static/js/main.2fc67677.js"
   ]
 }
