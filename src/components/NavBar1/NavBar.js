@@ -27,6 +27,7 @@ import MenuList from '@material-ui/core/MenuList';
 import { makeStyles } from '@mui/styles';
 import { APIs } from '../../constants/constants';
 import axios from 'axios'
+import producto from '../assets/producto.png'
 const useStyles = makeStyles((theme) => ({
   accordion: {
     width: '100%',
@@ -168,8 +169,8 @@ const NavBar = () => {
                 color="inherit"
               >
                 <img
-                  src="/producto-natural.png"
-                  alt="Imagen"
+             src={producto} 
+              alt="Imagen"
                   style={{
                     borderRadius: '50%',
                     width: '50px',
@@ -190,7 +191,7 @@ const NavBar = () => {
                     color="inherit"
                   >
                     <img
-                      src="/producto-natural.png"
+                      src={producto} 
                       alt="Imagen"
                       style={{
                         borderRadius: '50%',
@@ -263,6 +264,9 @@ const NavBar = () => {
                       padding: '1rem',
                       width: '100%',
                       height: '100vh',
+                      maxWidth:'100%',
+                      maxHeight:'100%',
+
                       top: 0,
                       left: 0,
                       margin: 0,
@@ -287,7 +291,7 @@ const NavBar = () => {
                         id={`${item.id}-header`}
                         style={{ backgroundColor: 'transparent', boxShadow: 'none', border: 'none' }}
                       >
-                        <Typography>{item.name}</Typography>
+                        <Typography style={{color:'black'}}>{item.name}</Typography>
                       </AccordionSummary>
                       <AccordionDetails className={classes.accordionDetails}>
                         {item.subcategory.map((subcategory) => (
